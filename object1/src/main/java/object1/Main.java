@@ -11,9 +11,9 @@ public class Main {
         logger.info("This is a module-using Hello World!");
         Person person1 = new Person("John", 30, 182);
         //Person person2 = new Person("Mike", 36, 176);
-        System.out.print(person1.age);
+        System.out.print(person1.height);
 
-        Chair chair1 = new Chair("wood","red",3);
+
 
     }
 
