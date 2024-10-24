@@ -1,3 +1,5 @@
+
+
 public class Chair {
     private String material;
     private String color;
