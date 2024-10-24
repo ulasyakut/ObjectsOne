@@ -1,15 +1,23 @@
 package object1;
 
+
 import java.util.logging.Logger;
 
 public class Main {
 
-    Person person = new Person();
-    Person person1 = new Person("John", 30);
 
     public static void main(String... args) {
         Logger logger=Logger.getLogger(Main.class.getName());
-        logger.info("This is a module-using Hello World!");    }
-    System.out.println('hello')
+        logger.info("This is a module-using Hello World!");
+        Person person1 = new Person("John", 30, 182);
+        //Person person2 = new Person("Mike", 36, 176);
+        System.out.print(person1.age);
+
+        Chair chair1 = new Chair("wood","red",3);
+
+    }
+
 
 }
+
+

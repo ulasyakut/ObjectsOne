@@ -1,3 +1,5 @@
+package object1;
+
 // Define a class
 public class Person {
     // Define Instance Variables
@@ -13,12 +15,5 @@ public class Person {
         this.height = height;
     }
 
-    public static void main(String[] args) {
-        // Declare and initialize an object
-        Person person1 = new Person("John", 30, 182);
-        Person person2 = new Person("Mike", 36, 176);
 
-        /* Now you can use the Object `person1` */
-
-    }
 }
